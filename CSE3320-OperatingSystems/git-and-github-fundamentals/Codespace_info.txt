@@ -1,0 +1,20 @@
+5.4.0-1100-azure
+//that's the linux version running I did uname -r
+No LSB modules are available.
+Distributor ID: Debian
+Description:    Debian GNU/Linux 11 (bullseye)
+Release:        11
+Codename:       bullseye
+// used lsb_release -a (Debian)
+Filesystem      Size  Used Avail Use% Mounted on
+overlay          32G  2.2G   28G   8% /
+tmpfs            64M     0   64M   0% /dev
+tmpfs           2.0G     0  2.0G   0% /sys/fs/cgroup
+shm              64M     0   64M   0% /dev/shm
+/dev/sdb1        16G   14G  1.7G  89% /tmp
+/dev/sda1        29G   11G   19G  37% /vscode
+/dev/loop0       32G  2.2G   28G   8% /workspaces
+tmpfs           2.0G     0  2.0G   0% /proc/acpi
+tmpfs           2.0G     0  2.0G   0% /proc/scsi
+tmpfs           2.0G     0  2.0G   0% /sys/firmware
+// used df -h 
